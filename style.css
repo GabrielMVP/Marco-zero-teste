@@ -1,0 +1,131 @@
+* {
+
+margin: 0;
+padding: 0;
+
+}
+
+    body {
+    width: 100vw;
+    height: 1920px;
+    display: inline;
+    background-color: rgb(3, 73, 73);
+
+    }
+
+        header {
+
+        display: flex;
+        max-width: 100%;
+        height: 80px;
+        background-color: aquamarine;
+
+        }
+
+        .logo-container {
+        width: 145px;
+        height: 38px;
+        justify-content: center;
+        margin-left: 45%;
+        margin-top: 20px;
+
+        }
+
+        .logo-container a {
+        display: flex;
+        font-size: 30px;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        font-family: fantasy;
+        padding: 2px 2px 2px 2px;
+
+        }
+
+        .image-max {
+
+        width: 60%;
+        height: 250px;
+        background-color: aquamarine;
+        margin-top: 30px;
+        margin-left: 20%;
+        border-radius: 40px;
+        padding: 60px 0 30px 60px;
+
+        }
+
+        .image {
+
+        display: flex;
+        width: 40%;
+        height: 95%;
+        margin-left: 25%;
+        margin: 10px 10px 10px 10px;
+
+        }
+
+        .image img {
+        
+        display: flex;
+        width: 100%;
+        border-radius: 30px;
+        margin-left: 20%;
+
+        }
+
+        .text-banner {
+
+            width: 30%;
+            height: 70%;
+            background-color: rgb(15, 109, 172);
+            border-radius: 30px;
+            margin-left: 35%;
+            margin-top: 20px;
+            padding: 10px 10px 10px 10px;
+            
+            }
+    
+            .text-banner h1{
+    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: aqua;
+    
+            }
+    
+            .text-banner p{
+                
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: aqua;
+            margin-top: 2px;
+        
+            }
+
+            .side-bar {
+            
+            width: 90%;
+            height: 50%;
+            background-color: rgb(24, 235, 235);
+            margin-left: 5%;
+            margin-top: 5%;
+            border-radius: 30px;
+            }
+
+            .side-bar .images-container {
+
+            display: flex;
+            width: 100%;
+            
+            }
+
+            .post-flex img {
+
+            width: 80%;
+            height: 80%;
+            border-radius: 30px;
+            margin: 30px 20px 0 40px;
+            }
